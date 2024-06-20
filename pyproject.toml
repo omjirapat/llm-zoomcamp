@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["Jirapat Intaaue <156293220+omjirapat@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+elasticsearch = "^8.14.0"
+groq = "^0.9.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+tiktoken = "^0.7.0"
+tqdm = "^4.66.4"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
